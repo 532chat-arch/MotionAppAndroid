@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Motion Studio</string>
+    <string name="app_tagline">2D Composition &amp; Storytelling Studio</string>
+
+    <!-- Workspaces -->
+    <string name="tab_home">Home</string>
+    <string name="tab_composition">Composition</string>
+    <string name="tab_movie_timeline">Movie</string>
+    <string name="tab_assets">Assets</string>
+    <string name="tab_characters">Characters</string>
+    <string name="tab_export">Export</string>
+    <string name="tab_mcp">MCP</string>
+
+    <!-- Common Actions -->
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_mute_audio">Mute audio</string>
+    <string name="action_unmute_audio">Unmute audio</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_duplicate">Duplicate</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_create">Create</string>
+    <string name="action_close">Close</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_import">Import</string>
+    <string name="action_export">Export</string>
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_open_editor">Open Editor</string>
+
+    <!-- Home Workspace -->
+    <string name="home_subtitle">Multi-layer composition studio with deterministic keyframes, sprite animation, camera parallax, procedural presets, and timed lyrics.</string>
+    <string name="home_resume_current">Resume Current Project</string>
+    <string name="home_continue_editing">Continue Editing</string>
+    <string name="home_new_project">New Project</string>
+    <string name="home_create_composition">New Composition</string>
+    <string name="home_import_archive">Import .motionx</string>
+    <string name="home_demo_templates">Demo Templates</string>
+    <string name="home_starter_templates">Starter Templates</string>
+    <string name="home_recent_projects">Saved Local Projects</string>
+    <string name="home_recent_animations">Recent Animation Projects</string>
+    <string name="home_search_projects">Search recent projects…</string>
+    <string name="home_no_projects">No saved animation projects yet. Tap New Composition or open a starter template to begin.</string>
+    <string name="home_empty_search">No projects match your current search or aspect filter.</string>
+    <string name="home_clear_filters">Clear Filters</string>
+    <string name="home_create_sheet_title">Create New Composition</string>
+    <string name="home_create_sheet_subtitle">Choose canvas dimensions, frame rate, and timeline duration.</string>
+    <string name="home_project_name_label">Composition Name</string>
+    <string name="home_canvas_preset_label">Canvas Aspect &amp; Resolution</string>
+    <string name="home_fps_label">Frame Rate</string>
+    <string name="home_duration_label">Timeline Duration</string>
+    <string name="home_project_more_options">Project options</string>
+    <string name="home_action_open">Open in Editor</string>
+    <string name="home_action_duplicate">Duplicate Project</string>
+    <string name="home_filter_all">All</string>
+    <string name="home_filter_landscape">16:9</string>
+    <string name="home_filter_portrait">9:16</string>
+    <string name="home_filter_square">1:1</string>
+    <string name="home_preview_play">Play thumbnail preview</string>
+    <string name="home_preview_pause">Pause thumbnail preview</string>
+    <string name="home_preview_live">PREVIEW</string>
+    <string name="home_continue_label">Continue Editing</string>
+    <string name="home_open_short">Resume</string>
+    <string name="home_search_toggle">Search projects</string>
+
+    <!-- Composition Workspace -->
+    <string name="panel_layers">Layers</string>
+    <string name="panel_inspector">Inspector</string>
+    <string name="panel_timeline">Timeline</string>
+    <string name="tool_select">Select &amp; Transform</string>
+    <string name="tool_pan">Pan Stage</string>
+    <string name="tool_add_shape">Add Shape</string>
+    <string name="tool_add_text">Add Text</string>
+    <string name="tool_guides">Toggle Safe Guides</string>
+    <string name="tool_motion_path">Toggle Motion Path</string>
+    <string name="tool_zoom_in">Zoom In</string>
+    <string name="tool_zoom_out">Zoom Out</string>
+    <string name="tool_zoom_fit">Fit Stage</string>
+
+    <!-- Inspector Tabs -->
+    <string name="inspector_tab_layer">Layer</string>
+    <string name="inspector_tab_presets">Effects</string>
+    <string name="inspector_tab_camera">Cam</string>
+    <string name="inspector_tab_world">World</string>
+    <string name="inspector_select_layer_hint">Select a layer on the stage or Layers panel to edit transforms, keyframes, and lightweight effects.</string>
+    <string name="effects_search_placeholder">Search lightweight effects or combos…</string>
+    <string name="perf_quality_title">Device Profile &amp; Preview Quality</string>
+    <string name="perf_device_profile_label">Target Device Profile</string>
+    <string name="perf_preview_mode_label">Adaptive Preview Quality</string>
+    <string name="perf_export_independent_hint">Final GIF / MP4 export always renders at 100% full quality.</string>
+
+    <!-- Timeline -->
+    <string name="timeline_tab_tracks">Tracks</string>
+    <string name="timeline_tab_audio">Audio</string>
+    <string name="timeline_step_back">Previous frame</string>
+    <string name="timeline_step_forward">Next frame</string>
+    <string name="timeline_jump_start">Jump to start</string>
+    <string name="timeline_jump_end">Jump to end</string>
+    <string name="timeline_toggle_loop">Toggle loop playback</string>
+    <string name="timeline_copy_kf">Copy Keyframes</string>
+    <string name="timeline_paste_kf">Paste Keyframes</string>
+    <string name="timeline_zoom_in">Zoom timeline in</string>
+    <string name="timeline_zoom_out">Zoom timeline out</string>
+    <string name="timeline_zoom_fit">Fit all frames</string>
+    <string name="timeline_follow_playhead">Follow playhead</string>
+    <string name="timeline_prev_kf">Previous keyframe</string>
+    <string name="timeline_next_kf">Next keyframe</string>
+    <string name="timeline_expand_channels">Toggle property channels</string>
+    <string name="timeline_hold_drag_hint">Overview · Hold ◆ move</string>
+    <string name="playback_prev_frame_short">-1f</string>
+    <string name="playback_next_frame_short">+1f</string>
+    <string name="playback_status_playing">Playing</string>
+    <string name="playback_status_paused">Paused</string>
+    <string name="timeline_onion_skin">Onion skin</string>
+    <string name="timeline_onion_skin_settings">Onion skin settings</string>
+    <string name="onion_skin_prev_frames">Before</string>
+    <string name="onion_skin_next_frames">After</string>
+    <string name="onion_skin_step">Step</string>
+    <string name="onion_skin_opacity">Opacity</string>
+    <string name="onion_skin_scope_all">All Layers</string>
+    <string name="onion_skin_scope_selected">Selected</string>
+    <string name="kf_action_edit">Edit</string>
+    <string name="kf_action_duplicate">Duplicate</string>
+    <string name="kf_action_delete">Delete</string>
+    <string name="kf_action_interpolation">Easing</string>
+    <string name="kf_action_clear">Clear</string>
+    <string name="kf_clear_selected">Delete Selected Keyframe</string>
+    <string name="kf_clear_property">Clear Property Animation</string>
+    <string name="kf_clear_all_object">Clear All Animation</string>
+    <string name="kf_clear_all_hint">Removes all keyframes &amp; motion presets, keeps object</string>
+    <string name="kf_edit_dialog_title">Edit Keyframe</string>
+    <string name="kf_frame_label">Frame</string>
+    <string name="kf_interpolation_label">Interpolation</string>
+    <string name="kf_interp_linear">Linear</string>
+    <string name="kf_interp_ease_in">Ease In</string>
+    <string name="kf_interp_ease_out">Ease Out</string>
+    <string name="kf_interp_ease_in_out">Ease In-Out</string>
+    <string name="kf_interp_hold">Hold</string>
+    <string name="kf_clear_menu_desc">Clear animation options</string>
+
+    <!-- Movie Timeline -->
+    <string name="movie_title">Movie Sequencer</string>
+    <string name="movie_append_comp">Append Composition</string>
+    <string name="movie_clip_inspector">Clip Inspector</string>
+    <string name="movie_no_clips">No clips on the movie timeline. Append a composition to start sequencing.</string>
+
+    <!-- Assets -->
+    <string name="assets_title">Asset Library</string>
+    <string name="assets_import_images">Import Images</string>
+    <string name="assets_import_audio">Import Audio</string>
+    <string name="assets_place_scene">Place in Scene</string>
+    <string name="assets_replace_source">Replace Source</string>
+    <string name="assets_search">Search assets…</string>
+    <string name="bg_remove_title">Sprite Background Removal</string>
+    <string name="bg_remove_action">Remove BG</string>
+    <string name="bg_remove_button">Remove Background</string>
+    <string name="bg_remove_sheet_button">Remove Sheet Background</string>
+    <string name="bg_remove_apply">Apply to Sprite</string>
+    <string name="bg_remove_save_copy">Save Copy</string>
+    <string name="bg_remove_restore">Restore Original</string>
+    <string name="bg_remove_compare">Compare Original</string>
+    <string name="bg_remove_tap_hint">Tap sprite to pick background color</string>
+    <string name="bg_remove_tolerance">Tolerance</string>
+    <string name="bg_remove_feather">Edge Smoothness</string>
+    <string name="bg_remove_despill">Fringe Cleanup (Despill)</string>
+    <string name="bg_remove_shrink">Edge Shrink</string>
+    <string name="bg_remove_cutout_badge">CUTOUT</string>
+
+    <!-- Characters -->
+    <string name="characters_title">Character Studio</string>
+    <string name="characters_new">New Character</string>
+    <string name="characters_import_sheet">Import Sprite Sheet</string>
+    <string name="characters_place_scene">Place in Scene</string>
+
+    <!-- Export -->
+    <string name="export_title">Export &amp; Archive</string>
+    <string name="export_quick_title">Export Animation</string>
+    <string name="export_format_gif">Animated GIF</string>
+    <string name="export_format_mp4">MP4 Video</string>
+    <string name="export_render_video">Render MP4 Video</string>
+    <string name="export_render_gif">Render Animated GIF</string>
+    <string name="export_png_snapshot">Export PNG Frame</string>
+    <string name="export_motionx">Export .motionx Archive</string>
+    <string name="export_import_motionx">Import .motionx Archive</string>
+    <string name="export_cancel_render">Cancel Render</string>
+    <string name="export_compile_and_share">Export &amp; Share</string>
+    <string name="export_compile_and_save">Save to Device</string>
+    <string name="export_share_now">Share</string>
+    <string name="export_save_copy">Save Copy</string>
+    <string name="export_ready_title">Ready to Share</string>
+
+    <!-- MCP -->
+    <string name="mcp_title">MCP Automation &amp; Client</string>
+    <string name="mcp_live_server_title">Live On-Device MCP Server</string>
+    <string name="mcp_live_server_subtitle">Connect Google Antigravity or any MCP host over local Wi-Fi (no token) to inspect assets, animate with %1$d tools, and render MP4/GIF videos.</string>
+    <string name="mcp_status_listening">Listening · Open Wi-Fi</string>
+    <string name="mcp_status_stopped">Stopped</string>
+    <string name="mcp_start_server">Start Server</string>
+    <string name="mcp_stop_server">Stop Server</string>
+    <string name="mcp_port_label">Port</string>
+    <string name="mcp_refresh_ip">Refresh Wi-Fi IP</string>
+    <string name="mcp_endpoint_label">Streamable HTTP Endpoint (MCP 2025-03-26)</string>
+    <string name="mcp_copy_url">Copy MCP endpoint URL</string>
+    <string name="mcp_ask_first_title">Ask-First &amp; No-Invention Guardrail Active</string>
+    <string name="mcp_ask_first_desc">Connected AI agents must audit real assets and ask you for missing sprites, audio, lyrics, or video settings—invented IDs and placeholder copy are rejected.</string>
+    <string name="mcp_tab_antigravity">Antigravity</string>
+    <string name="mcp_tab_standard">Standard MCP</string>
+    <string name="mcp_tab_usb">USB ADB</string>
+    <string name="mcp_hint_antigravity">Paste into Antigravity mcp_config.json (~/.gemini/config/mcp_config.json or .agents/mcp_config.json).</string>
+    <string name="mcp_hint_standard">Paste into Cursor, Claude Desktop, or any Streamable HTTP MCP client config.</string>
+    <string name="mcp_hint_usb">Run on your computer over USB if Wi-Fi client isolation blocks LAN ports.</string>
+    <string name="mcp_copy_antigravity_config">Copy Antigravity Config</string>
+    <string name="mcp_copy_standard_config">Copy Standard Config</string>
+    <string name="mcp_copy_usb_cmd">Copy USB Instructions</string>
+    <string name="mcp_start_and_copy">Start &amp; Copy</string>
+    <string name="mcp_recent_exports">Recent LAN-Downloadable Exports</string>
+    <string name="mcp_local_engine">Local Studio MCP Engine</string>
+    <string name="mcp_external_servers">External HTTP MCP Servers</string>
+    <string name="mcp_execute_tool">Execute Tool</string>
+    <string name="mcp_read_resource">Read Resource</string>
+    <string name="mcp_activity_log">Protocol Activity Log</string>
+
+    <!-- Status -->
+    <string name="status_saved">Saved</string>
+    <string name="status_saving">Saving…</string>
+    <string name="status_unsaved">Modified</string>
+    <string name="cd_dismiss_feedback">Dismiss message</string>
+    <string name="cd_toggle_visibility">Toggle layer visibility</string>
+    <string name="cd_toggle_lock">Toggle layer lock</string>
+    <string name="cd_toggle_keyframe">Toggle keyframe at current frame</string>
+</resources>
